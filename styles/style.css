@@ -78,6 +78,12 @@ img {
     font-weight: bold;
     font-size: large;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.one button:hover {
+    background-color: white;
+    color: #3882f6;
 }
 
 .two {
@@ -134,4 +140,54 @@ img {
 .three .quote p {
     text-align: end;
     font-weight: bold;
+}
+
+.four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-card {
+    background-color: #3882f6;
+    width: 70%;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.four .four-card h4 {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.four .four-card p {
+    color: white;
+}
+
+.four .four-card button {
+    background-color: #3882f6;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bold;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.four .four-card button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+footer {
+    padding: 42px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
 }
