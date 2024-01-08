@@ -39,7 +39,7 @@ li {
 main {
     background-color: #1f2937;
     display: flex;
-    padding: 32px;
+    padding: 42px;
     justify-content: center;
     gap: 32px;
 }
@@ -78,4 +78,39 @@ img {
     font-weight: bold;
     font-size: large;
     border-radius: 10px;
+}
+
+.two {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-detail > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#card {
+    display: flex;
+    text-align: center;
+    gap: 24px;
 }
